@@ -2,38 +2,119 @@
 <html>
 
 <head>
-  <title>CSS Box Styling</title>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  <title>Zachary's Portfolio</title>
+    <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+            <script src="https://kit.fontawesome.com/ba3fca236c.js" crossorigin="anonymous"></script>
 </head>
-
+ 
 <body>
-  <!-- Header -->
-  <header>
-
-  </header>
-
-  <!-- Navbar -->
-  <nav>
-    <a href="#">Camera</a>
-    <a href="#">Tablet</a>
-    <a href="#">Toilet Paper</a>
-    <a href="#">Wooden Spoons</a>
-  </nav>
-
-  <!-- Body -->
-  <main>
-    
-    <div>
-   
+    <!-- front page -->
+    <div class="main">
+        <a class="skip-to-content" href="#content">skip to content</a>
+        <div class="hero-image" alt="Sunset"></div>
+        <header class="header">
+        <img src="../my-portfolio/assets/images/Zachary.jpg" alt="photo of Zachary" id="my-image">
+                        <h1>Zachary Ceruto</h1>        
+                            <div class="icons">
+                                <div class="iconcen">
+                                    <a href="https://facebook.com">
+                                        <i class="fa-brands fa-facebook"></i></a>
+                                    <a href="https://instagram.com">
+                                        <i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://twitter.com">    
+                                        <i class="fa-brands fa-twitter"></i></a> 
+                                    <a href="https://Gmail.com">
+                                        <i class="fa-solid fa-envelopes-bulk"></i></a> 
+                                    
+                                </div>
+                            </div>
+                        </header>
     </div>
-  </main>
+    <!-- end of front page -->
+
+
+ <!-- Navbar -->
+ <div class="sidenav">
+    <nav>
+        <h2>Portfolio</h2>
+            <a href="#aboutme">About me</a>
+            <a href="#work">Work</a>
+            <a href="#contactme">Contact me</a>
+            <a href="#resume">Resume</a>
+    </nav>
+</div>
+<!-- end of navbar -->
+
+    <!-- sidebar padding -->
+<div id="sidebar-padding"> 
+
+   
+     
+    <!-- about me  -->
+    <div>
+        <section>
+            <h3 id="aboutme">About me</h3>
+                <p>Hello, I am Zachary, 23 year old male. I am currently studying Web Developing at Adelaide Uni Bootcamp. My goal is too develop my currently
+                skills and hopefully find a new career path. What made me so interested in Web Developing
+                was I have had previous html studies before at TAFE SA. I found it was so interesting that I wanted
+                to persue it even further.
+                </p><br>
+                <p>I am fun cheerful person. Some of my hobbies are video gaming, watching NBA and going
+                out to social events. 
+                </p>
+        </section>
+    </div>
+    <!-- end of about me -->
+
+    <!-- work -->
+    <div class="worksec" id="work">
+        <section>
+            <h3>Work</h3>
+                <div class="row">
+                    <div class="column work-container">
+                        <a href="art-expo"><img src="../my-portfolio/assets/images/art.jpg" alt="art expo"><div class="card-content">Art Expo</div></a>
+                        
+                        <a href="game-page"><img src="../my-portfolio/assets/images/game.jpg" alt="game page"><div class="card-content">Game WebPage</div></a>
+                        
+                        <a href="music-expo"><img src="../my-portfolio/assets/images/music.jpg" alt="music expo"><div class="card-content">Music Expo</div></a>
+                        
+                        <a href="pizza-page"><img src="../my-portfolio/assets/images/pizza.jpg" alt="pizza image"><div class="card-content">Pizza WebPage</div></a>
+                        
+                        <a href="skate-event"><img src="../my-portfolio/assets/images/skateboard.jpeg" alt="skate image"><div class="card-content">Skate Event</div></a>
+                        
+                    </div>
+                </div>
+        </section>
+    </div>
+    <!-- end of work -->
+
+    <!-- contact me -->
+    <section id="contactme">
+        <h3>Contact me</h3>
+        <div class="concenter">
+            <p>Contact Number:<a href="#phone-number">+0000 0000 0000</a></p><br>
+                <p>Email:<a href="#email">example@email.com</a></p><br>
+                    <p><a href="#github.com">Github</a></p>
+                    </div>
+    </section>
+    <!-- end of contact me -->
+
+    <!-- resume -->
+    <section id="resume">
+        <h3>Resume</h3>
+            <p>Click the <a href="#resume">link</a> to resume.</p>
+    </section>
+    <!-- end of resume -->
 
   <!-- Footer -->
   <footer>
-    
+    <h4>Created by Zachary Ceruto</h4>
   </footer>
+
+  <!-- end of sidebar padding -->
+</div>
 </body>
 
 </html>
