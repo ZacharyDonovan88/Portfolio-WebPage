@@ -7,7 +7,7 @@ SO THAT I can review samples of thier work and assess whether they're a good can
 ## Description
 This is a WebPage for empolyers to visit and inspect my portfolio. 
 
-## What could of done better
+## What could be changed
 - change side navbar to bar to top as it would of potentially ran better for mobile modes
 - possibily card content could of used more spacing in between each other
 - maybe a background colour or a picture to make it less simple
