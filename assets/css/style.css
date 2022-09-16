@@ -126,8 +126,6 @@ html{
     z-index: 1;
 }
 
-
-
 .icons {
     z-index: 4;
     position: relative;
@@ -145,8 +143,6 @@ html{
 
 .iconcen {
     display: flex;
-   
-
 }
 
 .skip-to-content {
@@ -163,12 +159,7 @@ html{
 /* end of main */
 
 
-/* about me */
-/* end of about me */
-
-
 /* Work */
-
 
 .worksec {
 
@@ -244,10 +235,15 @@ html{
  
 /* end of work */
 
+
 /* contact me */
 .concenter {
     display: inline-block;
 }
+
+/* end of contact me */
+
+
 
 
 @media screen and (max-width: 600px) {
