@@ -14,3 +14,8 @@ This is a WebPage for empolyers to visit and inspect my portfolio.
 
 ## Notes
 WebPage has been tested and should be compatible on all supported broswers including mobile devices. 
+
+## Screenshots
+![Capture-portfolio](https://user-images.githubusercontent.com/109838413/190635989-d808c320-e919-4640-b7b9-baade1117a53.PNG)
+![Capture-portfolio2](https://user-images.githubusercontent.com/109838413/190636024-871054c8-6e50-4689-ba34-89e300efaacf.PNG)
+![Capture-portfolio3](https://user-images.githubusercontent.com/109838413/190636049-775f5404-2f60-49b4-b0fd-53722243d466.PNG)
